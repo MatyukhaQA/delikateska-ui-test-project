@@ -4,7 +4,7 @@ from selene.support.shared import browser
 
 from model.pages.web_delikateska import open_url, authorization, view_account, search_value, check_search_result, \
     open_subcatalog, revision_result, search_and_open_item, add_to_favorite, favorite_page, search_ingridients, \
-    check_recipe
+    check_recipe, delete_subscribe_window
 
 
 @allure.tag('web')
@@ -34,6 +34,7 @@ def test_view_catalog():
         revision_result()
 
 
+
 @allure.tag('web')
 def test_add_to_favorite():
     open_url()
@@ -43,6 +44,8 @@ def test_add_to_favorite():
         search_and_open_item()
     with allure.step('Добавляем товар в избранное'):
         add_to_favorite()
+    with allure.step('Удаляем окно с подпиской'):
+        delete_subscribe_window()
     with allure.step('Проверяем, что товар присутствует в избранных'):
         favorite_page()
 

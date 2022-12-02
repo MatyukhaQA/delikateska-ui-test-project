@@ -57,7 +57,7 @@ def add_to_favorite():
 
 
 def favorite_page():
-    browser.element('.likes-btn').double_click()()
+    browser.element('[href="/cabinet/products"]').click()()
     browser.element('.product-card-new__title').should(have.text('Чай красный'))
 
 
@@ -70,3 +70,7 @@ def check_recipe():
     browser.element('.RecipeCard:nth-child(2)').should(have.text('Морепродукты'))
     browser.element('.RecipeCard:nth-child(3)').should(have.text('Рыба'))
     browser.element('.RecipeCard:nth-child(2)').should(have.text('Тунец с творожным кремом'))
+
+
+def delete_subscribe_window():
+    browser.element('#onesignal-slidedown-cancel-button').click()
