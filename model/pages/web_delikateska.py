@@ -30,7 +30,8 @@ def search_value():
 
 
 def check_search_result():
-    browser.element('.wrap-header ').should(have.text('Результаты по запросу Тунец'))
+    browser.element('.wrap-header ').should(have.text('Результаты по запросу Тунец /'
+                                                      'Найдено 16 товаров'))
     browser.element('.CatalogContainer').should(have.text('Тунец'))
 
 
