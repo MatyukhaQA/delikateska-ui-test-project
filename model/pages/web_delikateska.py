@@ -26,14 +26,13 @@ def view_account():
     browser.element('.container-personal-account').should(have.text('Активные заказы'))
 
 
-def search_value(item):
-    browser.element('#search-input').type(item).press_enter()
-    return item
+def search_value():
+    browser.element('#search-input').type('Тунец').press_enter()
 
 
 def check_search_result():
-    browser.element('.wrap-header ').should(have.text(f"Результаты по запросу {item}"))
-    browser.element('.CatalogContainer').should(have.text(item))
+    browser.element('.wrap-header ').should(have.text('Результаты по запросу Тунец'))
+    browser.element('.CatalogContainer').should(have.text('Тунец'))
 
 
 def open_subcatalog():

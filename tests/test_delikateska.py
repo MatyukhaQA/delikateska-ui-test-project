@@ -1,5 +1,6 @@
 
 import allure
+from selene.support.shared import browser
 
 from model.pages.web_delikateska import open_url, authorization, view_account, search_value, check_search_result, \
     open_subcatalog, revision_result, search_and_open_item, add_to_favorite, favorite_page, search_ingridients, \
@@ -8,7 +9,7 @@ from model.pages.web_delikateska import open_url, authorization, view_account, s
 
 @allure.tag('web')
 def test_login_possitive():
-    open_url()
+    browser.open('https://www.delikateska.ru/')
     with allure.step('Заполняем информацию для входа'):
         authorization()
     with allure.step('Переходим на страницу пользователя'):
@@ -19,7 +20,7 @@ def test_login_possitive():
 def test_search_item():
     open_url()
     with allure.step('Ищем товар'):
-        search_value('Тунец')
+        search_value()
     with allure.step('Проверяем результат поиска'):
         check_search_result()
 
