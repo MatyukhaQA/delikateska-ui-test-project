@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "rivegauche-diploma-project"
+version = "0.1.0"
+description = ""
+authors = ["matyukha <m@matyuha.ru>"]
+readme = "README.md"
+packages = [{include = "rivegauche_diploma_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selene = "^2.0.0-beta.16"
+pytest = "^7.2.0"
+pytest-voluptuous = "^1.2.0"
+python-dotenv = "^0.21.0"
+allure-pytest = "^2.11.1"
+utils = "^1.0.1"
+pyproject-toml = "^0.0.10"
+
+[tool.pytest.ini_options]
+addopts = "--alluredir allure-results --clean-alluredir "
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
