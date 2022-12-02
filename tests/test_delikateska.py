@@ -9,7 +9,9 @@ from model.pages.web_delikateska import open_url, authorization, view_account, s
 
 @allure.tag('web')
 def test_login_possitive():
-    browser.open('https://www.delikateska.ru/')
+    open_url()
+    with allure.step('Удаляем окно с подпиской'):
+        delete_subscribe_window()
     with allure.step('Заполняем информацию для входа'):
         authorization()
     with allure.step('Переходим на страницу пользователя'):
