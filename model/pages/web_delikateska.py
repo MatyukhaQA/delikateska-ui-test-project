@@ -5,10 +5,9 @@ from selene.support.conditions import have
 from selene.support.shared import browser
 
 load_dotenv()
-
-LOGIN = os.getenv('login')
-PASSWORD = os.getenv('password')
-URL = os.getenv('url')
+LOGIN = os.getenv('LOGIN')
+PASSWORD = os.getenv('PASSWORD')
+URL = os.getenv('URL')
 
 
 def open_url():
