@@ -30,7 +30,18 @@
   <img src="resources/images/suites.png" alt="Allure report"/>
 </p>
 
-## Интеграция с [AllureTestOps]()
+## Интеграция с [AllureTestOps](https://allure.autotests.cloud/project/1729/dashboards)
+
+### Тест-кейсы
+<p align="center">
+  <img src="resources/images/testcase.png" alt="Allure TestOps"/>
+</p>
+
+### Дашборд
+<p align="center">
+  <img src="resources/images/dashboard.png" alt="Allure TestOps"/>
+</p>
+
 
 ## Уведомление в Telegram
 <p align="center">
