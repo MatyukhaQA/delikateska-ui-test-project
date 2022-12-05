@@ -1,6 +1,6 @@
 # Проект по тестированию интернет-магазина [Деликатеска.ру](https://www.delikateska.ru/)
 <p align="left">
-  <img width="80%" src="resources/images/logo_delikateska_ru.png" alt="Деликатеска.ру"/>
+  <img width="40%" src="resources/images/logo_delikateska_ru.png" alt="Деликатеска.ру"/>
 </p>
 
 ## В проекте используются следующие технологии и инструменты:
