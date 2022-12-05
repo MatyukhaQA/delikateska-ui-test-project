@@ -8,6 +8,7 @@
 <img width="6%" title="Selene" src="https://github.com/MatyukhaQA/delikateska-ui-test-project/blob/master/resources/selene.png">
 <img width="6%" title="Jenkins" src="https://github.com/MatyukhaQA/delikateska-ui-test-project/blob/master/resources/jenkins.svg">
 <img width="6%" title="Allure Report" src="https://github.com/MatyukhaQA/delikateska-ui-test-project/blob/master/resources/allure.svg">
+<img width="6%" title="Allure TestOps" src="https://github.com/MatyukhaQA/delikateska-ui-test-project/blob/master/resources/AllureTestOps.png">
 <img width="6%" title="Selenoid" src="https://github.com/MatyukhaQA/delikateska-ui-test-project/blob/master/resources/Selenoid.svg">
 <img width="6%" title="Telegram" src="https://github.com/MatyukhaQA/delikateska-ui-test-project/blob/master/resources/tg.svg">
 </p>
