@@ -13,7 +13,7 @@
 <img width="6%" title="Telegram" src="https://github.com/MatyukhaQA/delikateska-ui-test-project/blob/master/resources/tg.svg">
 </p>
 
-# [Сборка в Jenkins](https://jenkins.autotests.cloud/job/002-matyukha-delikateska-ui-project/)
+# Сборка в [Jenkins](https://jenkins.autotests.cloud/job/002-matyukha-delikateska-ui-project/)
 <p align="center">
   <img src="resources/images/Jenkins.png" alt="Jenkins"/>
 </p>
