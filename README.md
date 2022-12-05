@@ -1,5 +1,7 @@
 # Проект по тестированию интернет-магазина [Деликатеска.ру](https://www.delikateska.ru/)
-<img title="Деликатеска.ру" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fdikovinka.su%2Fcompany%2Fnews%2Flesnaya-dikovinka-na-delikateska.ru&psig=AOvVaw0S6JSP_WK4cSddAq7Ip4f8&ust=1670363647568000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNC9r9G74_sCFQAAAAAdAAAAABAE">
+<p align="left">
+  <img src="resources/images/logo_delikateska_ru.png" alt="Деликатеска.ру"/>
+</p>
 
 ## В проекте используются следующие технологии и инструменты:
 <p align="center">
