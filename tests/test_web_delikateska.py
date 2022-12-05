@@ -60,6 +60,6 @@ def test_delete_from_favorite():
 def test_search_recipe():
     main_page.open_url()
     with allure.step('Ищем ингредиент'):
-        search_page.search_ingridients()
+        search_page.search_ingredients()
     with allure.step('Проверяем наличие нужных рецептов'):
         search_page.check_recipe()

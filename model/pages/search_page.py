@@ -13,7 +13,7 @@ class SearchPage:
         browser.element('.CatalogContainer').should(have.text(item))
         return self
 
-    def search_ingridients(self):
+    def search_ingredients(self):
         browser.element('.header-nav__list li:nth-child(3)').click()
         browser.element('[placeholder = "Поиск по рецептам"]').type('Тунец')
         return self

@@ -13,22 +13,26 @@
 <img width="6%" title="Telegram" src="https://github.com/MatyukhaQA/delikateska-ui-test-project/blob/master/resources/tg.svg">
 </p>
 
-# Сборка в [Jenkins](https://jenkins.autotests.cloud/job/002-matyukha-delikateska-ui-project/)
+## Сборка в [Jenkins](https://jenkins.autotests.cloud/job/002-matyukha-delikateska-ui-project/)
 <p align="center">
   <img src="resources/images/Jenkins.png" alt="Jenkins"/>
 </p>
 
-# Информация о тестах в [Allure report]()
+## Информация о тестах в [Allure report](https://jenkins.autotests.cloud/job/002-matyukha-delikateska-ui-project/23/allure/)
+
+### Главное окно
 <p align="center">
   <img src="resources/images/Allure.png" alt="Allure report"/>
 </p>
+
+### Окно с тестовыми кейсами
 <p align="center">
   <img src="resources/images/suites.png" alt="Allure report"/>
 </p>
 
-# Интеграция с [AllureTestOps]()
+## Интеграция с [AllureTestOps]()
 
-# Уведомление в Telegram
+## Уведомление в Telegram
 <p align="center">
   <img src="resources/images/telegram.png" alt="Telegram notification"/>
 </p>
