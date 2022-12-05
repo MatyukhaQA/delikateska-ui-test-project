@@ -14,3 +14,10 @@
 </p>
 
 # [Сборка в Jenkins](https://jenkins.autotests.cloud/job/002-matyukha-delikateska-ui-project/)
+
+# Информация о тестах в [Allure report]()
+
+# Интеграция с [AllureTestOps]()
+
+# Уведомление в Telegram
+

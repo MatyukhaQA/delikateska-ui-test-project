@@ -43,8 +43,6 @@ def test_add_to_favorite():
         favorite_page.search_and_open_item()
     with allure.step('Добавляем товар в избранное'):
         favorite_page.add_to_favorite()
-    with allure.step('Удаляем окно с подпиской'):
-        main_page.delete_subscribe_window()
     with allure.step('Проверяем, что товар присутствует в избранных'):
         favorite_page.check_favorite_page()
 
