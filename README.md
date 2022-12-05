@@ -12,3 +12,5 @@
 <img width="6%" title="Selenoid" src="https://github.com/MatyukhaQA/delikateska-ui-test-project/blob/master/resources/Selenoid.svg">
 <img width="6%" title="Telegram" src="https://github.com/MatyukhaQA/delikateska-ui-test-project/blob/master/resources/tg.svg">
 </p>
+
+# [Сборка в Jenkins](https://jenkins.autotests.cloud/job/002-matyukha-delikateska-ui-project/)

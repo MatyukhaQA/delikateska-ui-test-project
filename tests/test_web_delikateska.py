@@ -37,6 +37,8 @@ def test_add_to_favorite():
     main_page.open_url()
     with allure.step('Заполняем информацию для входа'):
         main_page.authorization()
+    with allure.step('Удаляем окно с подпиской'):
+        main_page.delete_subscribe_window()
     with allure.step('Ищем любимый товар'):
         favorite_page.search_and_open_item()
     with allure.step('Добавляем товар в избранное'):
