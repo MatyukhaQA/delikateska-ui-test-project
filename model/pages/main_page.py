@@ -30,3 +30,4 @@ class MainPage:
 
     def delete_subscribe_window(self):
         browser.element('#onesignal-slidedown-cancel-button').click()
+        return self
