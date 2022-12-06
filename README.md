@@ -50,7 +50,3 @@
 <p align="center">
   <img src="resources/images/telegram.png" alt="Telegram notification"/>
 </p>
-
-<p align="center">
-  <img src="resources/images/" alt=""/>
-</p>
