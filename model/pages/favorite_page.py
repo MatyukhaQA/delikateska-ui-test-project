@@ -11,7 +11,7 @@ class FavoritePage:
         browser.element('[class ="banners-link product-card-new"][href="/product/5581"]').click()
         return self
 
-    def add_to_favorite(self):
+    def click_to_like_button(self):
         browser.element('.product-links-icon--favourite').click()
         return self
 
